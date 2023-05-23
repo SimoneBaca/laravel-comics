@@ -57,7 +57,19 @@
             <div class="col-4 offset-2 d-flex align-items-center justify-content-between p-0">
                 <h5 class="blue m-0">FOLLOW US</h5>
                 <div class="d-flex justify-content-between p-0 icone">
-                    <a href="#" v-for="icona in listaIcona"><img :src="icona" alt=""></a>
+                <a href="#" v-for="icona in listaIcona"><img src="{{Vite::asset('resources/img/footer-facebook.png')}}"></a>
+                    </div>
+                    <div class="d-flex justify-content-between p-0 icone">
+                        <a href="#" v-for="icona in listaIcona"><img src="{{Vite::asset('resources/img/footer-periscope.png')}}"></a>
+                    </div>
+                    <div class="d-flex justify-content-between p-0 icone">
+                        <a href="#" v-for="icona in listaIcona"><img src="{{Vite::asset('resources/img/footer-pinterest.png')}}"></a>
+                    </div>
+                    <div class="d-flex justify-content-between p-0 icone">
+                        <a href="#" v-for="icona in listaIcona"><img src="{{Vite::asset('resources/img/footer-twitter.png')}}"></a>
+                    </div>
+                    <div class="d-flex justify-content-between p-0 icone">
+                        <a href="#" v-for="icona in listaIcona"><img src="{{Vite::asset('resources/img/footer-youtube.png')}}"></a>
                 </div>
             </div>
         </div>

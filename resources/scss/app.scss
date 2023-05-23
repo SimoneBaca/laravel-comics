@@ -9,11 +9,12 @@
 .navbar-dc {
     width: 100%;
     position: fixed;
-    top: 2%;
+    top: 18px;
     z-index: 10;
 }
 
 .nav-bar-dc-blue {
+    Z-INDEX: 10;
     background-color: #0C7CEC;
     position: fixed;
     top: 0;
@@ -82,7 +83,7 @@
     width: 65%;
 }
 
-.btn {
+.btn-load {
     background-color: #0C7CEC;
     width: 13%;
     border-radius: 0;
