@@ -1,1 +1,39 @@
 @import '~bootstrap/scss/bootstrap';
+.selezionato {
+    color: #0C7CEC;
+    border-bottom: 2px solid #0C7CEC;
+    margin: 0;
+}
+
+.navbar-dc {
+    width: 100%;
+    position: fixed;
+    top: 2%;
+    z-index: 10;
+}
+
+.nav-bar-dc-blue{
+    background-color: #0C7CEC;
+    position: fixed;
+    top: 0;
+}
+
+.color-white{
+    color: white;
+
+}
+
+.mini{
+    font-size: 12px;
+    padding: 0 8px;
+}
+
+.spacer{
+    margin-top: 149px;
+};
+
+.jumbotron{
+    background-image: url("../img/jumbotron.jpg");
+    height: 400px;
+    background-size: cover;
+}
