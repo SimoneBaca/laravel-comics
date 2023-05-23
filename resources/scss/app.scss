@@ -81,3 +81,48 @@
 .icone {
     width: 65%;
 }
+
+.btn {
+    background-color: #0C7CEC;
+    width: 13%;
+    border-radius: 0;
+}
+
+.serie {
+    background-color: #0C7CEC;
+    width: fit-content;
+    padding: .5rem 1.1rem;
+    top: -24px;
+    left: 2%;
+}
+
+.bg-darkgray {
+    background-color: rgb(29, 29, 29);
+}
+
+.bg-blue {
+    background-color: #0C7CEC;
+}
+
+.white {
+    color: white;
+}
+
+.carta {
+
+    img {
+        max-height: 180px;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+        object-position: top;
+    }
+}
+
+.acquisto {
+    width: 20%;
+
+    img {
+        width: 15%;
+    }
+
+}
