@@ -12,6 +12,8 @@
 
     @yield('content')
 
+    @include("partials.blue-banner")
+
     @include("partials.footer")
 </body>
 </html>
